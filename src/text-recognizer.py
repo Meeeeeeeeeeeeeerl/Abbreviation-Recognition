@@ -1,9 +1,9 @@
 from PIL import Image
 import pytesseract
-
-img = Image.open("img/all-star.jpg")
-result = pytesseract.image_to_string(img)
+from image_enhancer import enhancer
+image_path = "img/example.png"
+image_string = enhancer(image_path)
 
 with open("text/text_result.txt", mode="w") as file:
-    file.write(result)
+    file.write(image_string)
     print("done")
