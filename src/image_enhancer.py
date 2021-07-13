@@ -1,7 +1,7 @@
 from PIL import Image, ImageEnhance
 import pytesseract
 
-def enhancer(image_path):
+def enhance(image_path):
     img = Image.open(image_path)
 
     enhancer_sharp = ImageEnhance.Sharpness(img)
@@ -12,4 +12,4 @@ def enhancer(image_path):
 
     img_edit.save("img/edited_image.png")
 
-    return pytesseract.image_to_string(img_edit, lang="deu")
+    return img_edit
