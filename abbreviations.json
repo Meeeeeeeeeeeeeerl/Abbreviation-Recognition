@@ -1,6 +1,10 @@
 {
-    "dem": "dem",
-    "lol": "laughing out loud",
-    "bzw": "beziehungsweise",
-    "JSON": "JavaScript Object Notation"
+    "ETCS": "European Train Control System",
+    "EU": "Europäische Union",
+    "GSM-R": "Global System for Mobile connunication - Railways",
+    "UIC": "Union internationale des chemins de fer",
+    "ERRI": "European Rail Research Insitute",
+    "ERTMS": "European Rail Traffic Management System",
+    "UNISIG": "Union Industry of Signalling",
+    "zB": "Zum Beispiel"
 }

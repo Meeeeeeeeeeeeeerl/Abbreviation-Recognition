@@ -1,9 +1,45 @@
-Der Flexpreis Europa ohne Zugbindung
+nicnt miteinander kompatible nationale Vorschriften
 
-Mit dem Flexpreis Europa sind Sie an keinen bestimmten Zug gebunden, sondern kénnen an
-Ihrem Reisetag flexibel wahlen, mit welchem Zug Sie ins Ausland fahren méchten.
+f unterschiedliche Stromversorgungssysteme usw.
+Charakteristisch fiir den europaischen Eisenbahnsektor war das Fehlen einer technischen Regulie-
 
-In 130 deutschen Stadten ist jetzt fiir Sie das City-Ticket ab einer Reiseweite von iiber 100
-Kilometern inklusive. Ob Ihr Bahnhof dazugehért, erkennen Sie am Vermerk "+City" auf Ihrer
-Fahrkarte.
+rung auf internationaler Ebene.
+
+6.4.4 European Train Control System
+
+Geschichte ETCS
+sind Zugsicherungssysteme
+
+Um einen sicheren und reibungslosen Zugverkehr zu gewahrleisten, “i
+notwendig. In Europa haben sich 14 Arten entwickelt, die teilweise nebeneinander und landerab-
+hangig eingesetzt werden und untereinander nicht kompatibel sind. Im grenziiberschreitenden Ver-
+kehr miissen daher Triebfahrzeuge mit einem oder evtl. mehreren Zugsicherungssystemen des
+Gastlandes ausgeriistet sein. Ist das nicht der Fall, muss ein Wechsel des Triebfahrzeuges vorge-
+nommen werden, der zeit- und kostenaufwendig ist. Aus Bestrebungen Zuf Verkirzung der
+Grenzaufenthaltszeiten sowie zur Senkung der Kosten durch Schaffung eines europaweiten Mark-
+tes fiir Zugsicherungssysteme entwickelte sich seit Anfang der 1990er das Konzept eines einheitli-
+chen Zugsicherungssystems.
+
+Seit 1996 wurde auf Grundlage der EU-Richtlinie zur Interoperabilitat des
+Hochgeschwindigkeitsbahnsystems das Zugsicherungssystem ETCS und das mobilfunkba-
+sierte Kommunikationssystem GSM-R (Global System for Mobile communication - Railways) ent-
+wickelt. Der Internationale Eisenbahnverband (UIC, Union internationale des chemins de fer) hatte
+durch das European Rail Research Institute (ERRI) die ersten Spezifikationen fir ETCS erarbeiten
+lassen. Diese wurden zunachst federfiihrend durch die ERTMS Users Group, eine Interessenverei-
+nigung von inzwischen sechs europaischen Bahnen, anschlie&end durch UNISIG, einen Zusam-
+menschluss europaischer Bahnsicherungstechnikhersteller, weiterentwickelt. Seit 1999 wird ETCS
+von mehreren Bahngesellschaften getestet. Seit 2001 besteht eine EU-Richtlinie, die die Bahninf-
+rastrukturbetreiber auch zur Ausriistung von konventionellen Strecken mit ETCS verpflichtet.
+
+ 
+
+transeuropaischen
+
+Ziele
+Die Einfahrung des ETCS soll nicht nur die Zugsteuerung und -sicherung zusammenfassen und
+
+intelligenter machen, sondern auch a
+dhaltung und Betrieb von ortsfesten Anlagen (z. B. Signalen) sparen,
+
+® Kosten fiir Instan
 
