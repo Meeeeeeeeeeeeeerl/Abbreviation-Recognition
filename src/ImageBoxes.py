@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import json
 from WordTrimmer import trimWord
 def createImageBoxes(edited_image_path):
+
     # CV2s way of reading images uses a path as input
     img = cv2.imread(edited_image_path)
 
@@ -12,14 +13,14 @@ def createImageBoxes(edited_image_path):
     json_abb = json.load(json_file)
 
     # Convertss the image into data (for every recognized word it outputs an array of data)
-    # array contains the following information: [level, page_num, block_num, par_num, lin_num, word_num, left, top, width, height, conf, text]
+    # Array contains the following information: [level, page_num, block_num, par_num, lin_num, word_num, left, top, width, height, conf, text]
     data = pytesseract.image_to_data(img)
 
-    # the following steps are executed for every entry in data 
+    # The following steps are executed for every entry in data 
     for d in data.splitlines():
         d = d.split()
         try:
-            # the word that PyTesseract finds is compared to all entries in the abbreviations.json
+            # The word that PyTesseract finds is compared to all entries in the abbreviations.json
             word = d[11]
 
             # Trims the word of (possibly) unnecessary symbols. This method IS NOT optimal. For now, it is the most elegant solution
