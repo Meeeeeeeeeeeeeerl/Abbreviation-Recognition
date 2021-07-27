@@ -2,7 +2,6 @@ import cv2
 import pytesseract
 import matplotlib.pyplot as plt
 import json
-from WordTrimmer import trimWord
 def createImageBoxes(edited_image_path):
 
     # CV2s way of reading images uses a path as input
