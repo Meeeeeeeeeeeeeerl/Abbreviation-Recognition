@@ -23,16 +23,17 @@ def createImageBoxes(edited_image_path):
             # The word that PyTesseract finds is compared to all entries in the abbreviations.json
             word = d[11]
 
-            # Trims the word of (possibly) unnecessary symbols. This method IS NOT optimal. For now, it is the most elegant solution
-            word = trimWord(word)
-            if word in json_abb:
+            # Checks if any word given from PyTesseract contains a word from the abbreviation.json. Python's contains function is case-sensitive. 
+            # This method can be optimized. Currently it allows unintended abbreviations to be detected (e. g. "milkman", because it contains "km").
+            for json_word in  json_abb:
+                if word.__contains__(json_word):
 
-                # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
-                # The color is set to red and the thickness of the lines set to 3 to increase visibility.
-                cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(255, 0, 0), 3)
+                    # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
+                    # The color is set to red and the thickness of the lines set to 2 to increase visibility.
+                    cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(255, 0, 0), 1)
 
-                # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
-                print(word + " is short for: " + json_abb[word])
+                    # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
+                    print(word + " is short for: " + json_abb[word])
         except:
             Exception # :D
 
