@@ -1,45 +1,24 @@
-nicnt miteinander kompatible nationale Vorschriften
-
-f unterschiedliche Stromversorgungssysteme usw.
-Charakteristisch fiir den europaischen Eisenbahnsektor war das Fehlen einer technischen Regulie-
-
-rung auf internationaler Ebene.
-
-6.4.4 European Train Control System
-
-Geschichte ETCS
-sind Zugsicherungssysteme
-
-Um einen sicheren und reibungslosen Zugverkehr zu gewahrleisten, “i
-notwendig. In Europa haben sich 14 Arten entwickelt, die teilweise nebeneinander und landerab-
-hangig eingesetzt werden und untereinander nicht kompatibel sind. Im grenziiberschreitenden Ver-
-kehr miissen daher Triebfahrzeuge mit einem oder evtl. mehreren Zugsicherungssystemen des
-Gastlandes ausgeriistet sein. Ist das nicht der Fall, muss ein Wechsel des Triebfahrzeuges vorge-
-nommen werden, der zeit- und kostenaufwendig ist. Aus Bestrebungen Zuf Verkirzung der
-Grenzaufenthaltszeiten sowie zur Senkung der Kosten durch Schaffung eines europaweiten Mark-
-tes fiir Zugsicherungssysteme entwickelte sich seit Anfang der 1990er das Konzept eines einheitli-
-chen Zugsicherungssystems.
-
-Seit 1996 wurde auf Grundlage der EU-Richtlinie zur Interoperabilitat des
-Hochgeschwindigkeitsbahnsystems das Zugsicherungssystem ETCS und das mobilfunkba-
-sierte Kommunikationssystem GSM-R (Global System for Mobile communication - Railways) ent-
-wickelt. Der Internationale Eisenbahnverband (UIC, Union internationale des chemins de fer) hatte
-durch das European Rail Research Institute (ERRI) die ersten Spezifikationen fir ETCS erarbeiten
-lassen. Diese wurden zunachst federfiihrend durch die ERTMS Users Group, eine Interessenverei-
-nigung von inzwischen sechs europaischen Bahnen, anschlie&end durch UNISIG, einen Zusam-
-menschluss europaischer Bahnsicherungstechnikhersteller, weiterentwickelt. Seit 1999 wird ETCS
-von mehreren Bahngesellschaften getestet. Seit 2001 besteht eine EU-Richtlinie, die die Bahninf-
-rastrukturbetreiber auch zur Ausriistung von konventionellen Strecken mit ETCS verpflichtet.
+Ausriistungsverpflichtung [Bearbeiten | Quelitext bearbeiten ]
 
  
 
-transeuropaischen
+Der europaische ERTMS-Bereitstellungspian sieht eine schrittweise Befahrbarkeit des transeuropaischen Eisenbahnsystems mit ERTMS vor. Infrastrukturseitig sind mit ERTMS/ETCS innerhalb des ,transeuropaischen Eisenbahnnetzes" und des ,transeuropaischen
+Hochgeschwindigkeitsbahnnetzes" gemaf Richtlinie 2008/57/EG@ und der zu Grunde liegenden Entscheidung 1692/96/EG!""! verpflichtend auszuristen:{"1Il"21
+* sechs definierte Gilterverkehrskorridore sowie deren Verbindungen zu bestimmten wichtigen Hafen, Rangieraniagen, Gilterterminals und Giterverkehrsraumen. Die Mitgliedsstaaten miissen dazu der Europaischen Kommission einen Zeitplan fir die Ausristung
+vorlegen. Auf Korridorabschnitten mit mehr als einer Strecke ist dabei die Ausristung einer Strecke ausreichend.!""] (Die Bundesrepublik Deutschland legte zuletzt Ende 2017 einen derartigen Plan vor!"3})
+* Hochgeschwindigkeitsstrecken bei Neuausristungen und wesentlichen Umristungen der Sicherungstechnik "1
+‘* wenn eine ,Zugsicherungskomponente eines ZZS-Teilsystems" neu installiert wird {"1]
+« bereits in Betrieb befindliche Schieneninfrastrukturvorhaben, die aus EFRE, dem Kohasionsfonds oder dem TEN-V-Haushalt gefordert wurden, bei Umriistungen eines bereits in Betrieb befindlichen ZZS-Teilsystems, ,die die Funktionen oder die Leistung des
+Teilsystems verandert* [1]
+Eine Ausristung von Klasse-B-Systemen neben ERTMS ist zulassig !"7]
+Eisenbahntahrzeuge, fir die erstmals eine Inbetriebnahmegenehmigung erteilt wird, missen in der EU grundsatzlich mit ETCS ausgeriistet sein. Ausgenommen davon sind Bau- und Instandhaltungsfahrzeuge, neue Rangierlokomotiven sowie nicht fur den Einsatz auf
+Hochgeschwindigkeitsstrecken bestimmte Neufahrzeuge, soweit sie
+ ausschlieBlich im Inlandsverkehr auRerhalb der o. g. Gilterverkehrskorridore und deren Verbindungen zu wichtigen Antagen eingesetzt werden oder
+‘« im grenziberschreitenden Verkehre au@erhalb des TEN bis zum ersten Bahnhof im Nachbarland vorgesehen sind, an dem Anschliisse zu anderen Zielen im Nachbarland bestehen [12]
+Femer kénnen Mitgliedstaaten fr den Inlandsverkehr bestimmte Fahrzeuge von der Ausriistungspflicht ausnehmen, soweit ihr Einsatzgebiet nicht mehr als 150 km ber bereits mit ETCS ausgeriistete Streckenabschnitte fUhrt oder binnen flinf Jahren nach
+Inbetriebnahmegenehmigung der Fahrzeuge mit ETCS ausgeristet werden soll !'2! Diese Ausnahmeregelung kommt in Deutschland zur Anwendung_"4)
 
-Ziele
-Die Einfahrung des ETCS soll nicht nur die Zugsteuerung und -sicherung zusammenfassen und
+Daneben missen Hochgeschwindigkeitszige im Rahmen von Neuaus- bzw. Umristungen der Zugbeeinflussungssysteme mit ETCS ausgeristet werden ["21
 
-intelligenter machen, sondern auch a
-dhaltung und Betrieb von ortsfesten Anlagen (z. B. Signalen) sparen,
-
-® Kosten fiir Instan
+Dariiber hinaus gelten Regelungen bei einer Erweiterung des Verwendungsgebiets von Fahrzeugen''®! gemag Viertem Eisenbahnpaket. Die Ausrlistungsverpflichtung flr Strecken in Deutschland wird in der EIGV@ konkretisiert.
 
