@@ -2,6 +2,8 @@ import pytesseract
 from PreProcessing import enhance
 from ImageBoxes import createImageBoxes
 
+# Run this class for the OCR magic
+
 # Path of the image that the OCR is working with
 image_path = "img/example.png"
 
