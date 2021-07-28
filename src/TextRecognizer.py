@@ -15,7 +15,7 @@ image_edit = enhance(image_path, edited_image_path)
 createImageBoxes(edited_image_path)
 
 # Converts the edited image to a string using PyTesseract
-image_string = pytesseract.image_to_string(image_edit) 
+image_string = pytesseract.image_to_string(image_edit, lang="deu") 
 
 # Saves the string to a text file
 with open("text/text_result.txt", mode="w") as file:

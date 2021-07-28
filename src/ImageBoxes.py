@@ -13,7 +13,7 @@ def createImageBoxes(edited_image_path):
 
     # Convertss the image into data (for every recognized word it outputs an array of data)
     # Array contains the following information: [level, page_num, block_num, par_num, lin_num, word_num, left, top, width, height, conf, text]
-    data = pytesseract.image_to_data(img)
+    data = pytesseract.image_to_data(img, lang="deu")
 
     # The following steps are executed for every entry in data 
     for d in data.splitlines():
