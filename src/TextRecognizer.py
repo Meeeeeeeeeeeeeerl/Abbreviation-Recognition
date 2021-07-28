@@ -1,5 +1,5 @@
 import pytesseract
-from ImageEnhancer import enhance
+from PreProcessing import enhance
 from ImageBoxes import createImageBoxes
 
 # Path of the image that the OCR is working with

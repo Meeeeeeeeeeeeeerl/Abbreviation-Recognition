@@ -10,7 +10,7 @@ def enhance(image_path, edited_image_path):
     enhancer_contrast = ImageEnhance.Contrast(img)
 
     img_edit = enhancer_sharp.enhance(25.0)
-    img_edit = enhancer_contrast.enhance(2.0)
+    img_edit = enhancer_contrast.enhance(3.0)
 
     # Saves the edited image to the given path
     img_edit.save(edited_image_path)
