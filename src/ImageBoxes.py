@@ -29,15 +29,16 @@ def createImageBoxes(edited_image_path):
 
                     # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
                     # The color is set to red and the thickness of the lines set to 2 to increase visibility.
-                    cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(255, 0, 0), 1)
+                    cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), 1)
 
                     # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
                     print(word + " is short for: " + json_abb[word])
         except:
             Exception # :D
 
-    # Shows the edited picture with the added rectangles. This is mainly for demonstration purposes, if used in an productive environment this probably wouldn't be the case     
-    plt.imshow(img)
+    # Shows the edited picture with the added rectangles. This is mainly for demonstration purposes, if used in an productive environment this probably wouldn't be the case
+    img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)     
+    plt.imshow(img_RGB)
 
     # Saves the picture with added rectangles as a plot 
     plt.savefig("img/plot.png")
