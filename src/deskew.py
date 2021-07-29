@@ -9,7 +9,7 @@ def deskew(im, max_skew=10):
     height, width = im.shape
 
     # Create an inverted B&W copy using Otsu (automatic) thresholding
-    im_bw = cv2.threshold(im_gs, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
+    im_bw = cv2.threshold(im, 0, 255, cv2.THRESH_BINARY_INV | cv2.THRESH_OTSU)[1]
 
     # Detect lines in this image. Parameters here mostly arrived at by trial and error.
     lines = cv2.HoughLinesP(
