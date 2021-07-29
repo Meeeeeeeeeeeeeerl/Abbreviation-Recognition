@@ -2,6 +2,7 @@ import cv2
 import pytesseract
 import matplotlib.pyplot as plt
 import json
+import config as cfg
 def createImageBoxes(edited_image_path):
 
     # CV2s way of reading images uses a path as input
@@ -18,24 +19,30 @@ def createImageBoxes(edited_image_path):
     # The following steps are executed for every entry in data 
     for d in data.splitlines():
         d = d.split()
-        try:
-            # The word that PyTesseract finds is compared to all entries in the abbreviations.json
-            word = d[11]
 
-            # Checks if any word given from PyTesseract contains a word from the abbreviation.json. Python's contains function is case-sensitive. 
-            # This method can be optimized. Currently it allows unintended abbreviations to be detected (e. g. "milkman", because it contains "km").
-            for json_word in  json_abb:
-                if word.__contains__(json_word):
+        # If imageBoxesMode is set to ALL, it will draw a rectangle around every word found
+        if cfg.imageBoxes["imageBoxesMode"] == "ALL":
+            try:
+                cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), 1)
+            except:
+                Exception # :D
+        else:
+            try:
+                # The word that PyTesseract finds is compared to all entries in the abbreviations.json
+                word = d[11]
 
-                    # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
-                    # The color is set to red and the thickness of the lines set to 2 to increase visibility.
-                    cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), 1)
+                # Checks if any word given from PyTesseract contains a word from the abbreviation.json. Python's contains function is case-sensitive. 
+                # This method can be optimized. Currently it allows unintended abbreviations to be detected (e. g. "milkman", because it contains "km").
+                for json_word in  json_abb:
+                    if word.__contains__(json_word):
+                        # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
+                        # The color is set to red and the thickness of the lines set to 2 to increase visibility.
+                        cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), 1)
 
-                    # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
-                    print(word + " is short for: " + json_abb[word])
-        except:
-            Exception # :D
-
+                        # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
+                        print(word + " is short for: " + json_abb[word])
+            except:
+                Exception # :D
     # Shows the edited picture with the added rectangles. It needs to convert to RGB color scheme first. cv2 uses BGR, matplotlib uses RGB.
     img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)     
     plt.imshow(img_RGB)
