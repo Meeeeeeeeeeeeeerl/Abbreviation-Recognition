@@ -11,7 +11,7 @@ This is a Python Wrapper for the Google-OCR Tesseract (https://github.com/tesser
 4. Install opencv-python (https://pypi.org/project/opencv-python/)
 
 ### Explanation on folder/files
-img-folder: This folder contains more image Folders. They are named after the type of picture you find inside:
+img-folder: This folder contains more image folders. They are named after the type of picture you find inside:
 - normal: normal example picture with no added visual effects
 - noise: example picture with added noise
 - lowContrast: example picture with reduced contrast
