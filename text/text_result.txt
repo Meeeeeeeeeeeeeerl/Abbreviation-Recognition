@@ -1,27 +1,23 @@
-Ausrüstungsverpflichtung [Bearbeiten | Quelltext bearbeiten ]
+Ausrüstungsverpflichtung _[Besrbeten | Quelltext bearbeiten ]
 
  
 
-Der europäische ERTMS-Bereitstellungsplan sieht eine schrittweise Befahrbarkeit des iranseuropäischen Eisenbahnsystems mit ERTMS vor. Infrastrukturseitig sind mit ERTMS/ETCS innerhalb des „iranseuropäischen Eisenbahnnelzes“ und des „Iranseuropäischen
-Hochgeschwindigkeitsbahnnetzes“ gemäß Richtlinie 2008/57/EG@ und der zu Grunde liegenden Entscheidung 1692/96/EG!'% verpfichtend auszurüsten: 111.121
-+ sechs definierte Güterverkehrskorridore sowie deren Verbindungen zu bestimmien wichtigen Häfen, Rangieranlagen, Güterterminals und Gülerverkehrsräumen. Die Mitgliedsstaaten müssen dazu der Europäischen Kommission einen Zeitplan für die Ausrüstung
-vorlegen. Auf Korridorabschnitten mit mehr als einer Strecke ist dabei die Ausrüstung einer Strecke ausreichend.!!11 (Die Bundesrepublik Deutschland legte zuletzt Ende 2017 einen derartigen Plan vor.13
-+ Hochgeschwindigkeitsstrecken bei Neuausrüstungen und wesentlichen Umrüstungen der Sicherungstechnik (11
-* wenn eine „Zugsicherungskomponente eines ZZS-Teilsystems“ neu installiert wird. 1117
-+ bereits in Betrieb befindliche Schieneninfrastrukturvorhaben, die aus EFRE, dem Kohäsionsfonds oder dem TEN-V-Haushalt geförderl wurden, bei Umrüstungen eines bereits in Betrieb befindlichen ZZS-Teilsysiems, „die die Funktionen oder die Leistung des
-Teilsystems verändert‘ (41
-Eine Ausrüstung von Klasse-B-Systemen neben ERTMS ist zulässig.1!17
+Der europäische ERTMS-Bereitstelungsplan sieht eine schrifwelse Befahrbarkeit des iranseuropälschen Elsenbahnsystems mit ERTMS vor. Infrastruktursellig sind mit ERTMS/ETCS Innerhalb des „iranseuropälschen Elsenbahnnetzes” und des „transeuropälschen
+Hochgeschwindigkeitsbahnnetzes“ gemäß Richiiinie 20086/57/EG# und der zu Grunde Begenden Entscheidung 1692/96/EG!19 verpfächtend auszurüsten 111221
+= sechs definierte Güterverkehrskorrklore sowie deren Verbindungen zu besiimmien wichtigen Häfen, Rangleraniagen, Güterterminals und Güterverkehrsräumen Die MRgledsstaaten müssen dazu der Europäischen Kommission einen Zelplan für die Ausrüstung
+vorlegen. Auf Korklorabschniten mit mehr als einer Strecke Ist dabei die Ausrüstung einer Strecke ausreichend.!!T (Die Bundesrepubilk Deutschland legte zuletzt Ende 2017 einen derartigen Plan vor.(13)
+= Hochgeschwindigkeiissirecken bei Neuausrüstungen und wesentöchen Umrüstungen der Sicherungstechnik (111
+* wenn eine „Zugsicherungskomponente eines ZZS-Teilsystems” neu Installtert wird. 11
+= bereits In Betrieb befindiche Schleneninfrastruklurvorhaben, die aus EFRE, dem Kohäsionsfonds oder dem TEN-V-Haushalt gefördert wurden, bei Umrüstungen eines bereits In Betrieb befindlichen ZZS-Teäsysiems, „die die Funkionen oder die Leistung des
+Telsystems verändert 111
+Eine Ausrüstung von Klasse-B-Systemen neben ERTMS Ist zulässig. 11
+Elsenbahnfahrzeuge, für die erstmals eine Inbelrtebnahmegenehmigung ertelt wird, müssen In der EU grundsätzüch mit ETCS ausgerüstet sein. Ausgenommen davon sind Bau- und Instandhaltungsfahrzeuge, neue Rangierlokomotiven sowie nicht für den Einsatz auf
+Hochgeschwindigkeitssirecken bestimmte Neufahrzeuge, SoweR sie
+= ausschließäch Im Inlandsverkehr außerhalb der 0. g. Güerverkehrskonklore und deren Verbindungen zu wichtigen Anlagen eingesetzt werden oder
+'» Im grenzüberschreitenden Verkehre außerhalb des TEN bis zum ersten Bahnhof im Nachbarland vorgesehen sind, an dem Anschlüsse zu anderen Zielen Im Nachbarkand bestehen. [21
+Femer können Mitgledstaaten für den Inkındsverkehr bestimmte Fahrzeuge von der Ausrüstungspflcht ausnehmen, soweR Ihr Einsatzgebiet nicht mehr als 150 km über bereits mit ETCS ausgerüstete Streckenabschnite führt oder binnen fünf Jahren nach
+Inbetriebnahmegenehmigung der Fahrzeuge mit ETCS ausgerüstet werden so 112 Diese Ausnahmeregelung kommt In Deutschland zur Anwendung 114
 
-Eisenbahnfahrzeuge, für die erstmals eine Inbetriebnahmegenehmigung erteilt wird, müssen In der EU grundsätzlich mit ETCS ausgerüstet sein. Ausgenommen davon sind Bau- und Instandhaltungsfahrzeuge, neue Rangierlokomotiven sowie nicht für den Einsalz auf
-Hochgeschwindigkeitsstrecken bestimmte Neufahrzeuge, soweit sie
-
-= ausschließlich im Intandsverkehr außerhalb der 0. g. Gülerverkehrskorfidore und deren Verbindungen zu wichligen Anlagen eingesetzt werden oder
-
-+ im grenzüberschreitenden Verkehre außerhalb des TEN bis zum ersten Bahnhof im Nachbarland vorgesehen sind, an dem Anschlüsse zu anderen Zielen im Nachbarland bestehen. 121
-
-Ferner können Mitgliedstaaten für den Inlandsverkehr bestimmte Fahrzeuge von der Ausrüstungspflicht ausnehmen, soweit ihr Einsalzgebiet nicht mehr als 150 km über bereits mit ETCS ausgerüstete Streckenabschnitte führt oder binnen fünf Jahren nach
-Inbetriebnahmegenehmigung der Fahrzeuge mit ETCS ausgerüstet werden sol.1!21 Diese Ausnahmeregelung kommt in Deutschland zur Anwendung. !'41
-Daneben müssen Hochgeschwindigkeitszüge im Rahmen von Neuaus- bzw. Umrüstungen der Zugbeeinflussungssysteme mit ETCS ausgerüstet werden. 21
-
-Darüber hinaus gelten Regelungen bei einer Erweiterung des Verwendungsgebiets von Fahrzeugen!" gemäß Viertem Eisenbahnpaket. Die Ausrüstungsverpflichtung für Strecken in Deutschland wird in der EIGV}@ konkrelisiert.
+Daneben müssen Hochgeschwindigkeitszüge Im Rahmen von Neuaus- bzw. Umrüstungen der Zugbeeinfussungssysteme mit ETCS ausgerüstet werden. (21
+Darüber hinaus geflen Regelungen bei einer Erweiterung des Verwendungsgeblets von Fahrzeugen‘! gemaß Viertem Eisenbahnpaket. Die Aussüstungsverpflichtung für Strecken In Deutschland wird In der EIGV® konkreiisiert.
 

@@ -1,5 +1,6 @@
 import cv2
 from deskew import deskew
+import numpy
 def enhance(image_path, edited_image_path):
 
     # Opens the image and save it to the variable
@@ -20,5 +21,10 @@ def enhance(image_path, edited_image_path):
     img_edit = deskew(img_edit)
     cv2.imwrite("img/picture-deskewed.png", img_edit)
 
+#    kernel = numpy.ones((2,2),numpy.uint8) Not included as thinning is not a one-for-all solution. It needs to be more flexible based on text size.
+#    img_edit = cv2.erode(img_edit,kernel,iterations = 1)
+#    cv2.imwrite("img/picture-thinned.png", img_edit)
+
+    cv2.imwrite(edited_image_path, img_edit)
     # Returns edited image
     return img_edit
