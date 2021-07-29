@@ -1,7 +1,7 @@
 import cv2
 from deskew import deskew
 import numpy
-def enhance(image_path, edited_image_path):
+def preprocess(image_path, edited_image_path):
 
     # Opens the image and save it to the variable
     img = cv2.imread(image_path)

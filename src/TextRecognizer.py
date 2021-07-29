@@ -1,6 +1,6 @@
 import pytesseract
-from PreProcessing import enhance
-from ImageBoxes import createImageBoxes
+from preprocess import preprocess
+from createImageBoxes import createImageBoxes
 
 # Run this class for the OCR magic
 
@@ -11,7 +11,7 @@ image_path = "img/picture.png"
 edited_image_path = image_path.replace(".png", "-edited.png")
 
 # Pre-processing the image
-image_edit = enhance(image_path, edited_image_path)
+image_edit = preprocess(image_path, edited_image_path)
 
 # Recognizes and marks the words written in the abbreviations.json
 createImageBoxes(edited_image_path)
