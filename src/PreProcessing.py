@@ -20,8 +20,5 @@ def enhance(image_path, edited_image_path):
     img_edit = deskew(img_edit)
     cv2.imwrite("img/picture-deskewed.png", img_edit)
 
-    # Saves the edited image to the given path
-    cv2.imwrite(edited_image_path, img_edit)
-
     # Returns edited image
     return img_edit
