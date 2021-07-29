@@ -20,6 +20,6 @@ createImageBoxes(edited_image_path)
 image_string = pytesseract.image_to_string(image_edit, lang="deu") 
 
 # Saves the string to a text file
-with open("text/text_result.txt", mode="w") as file:
+with open("text/text_result.txt", mode="w", encoding="utf-8") as file:
     file.write(image_string)
     print("done")
