@@ -36,7 +36,7 @@ def createImageBoxes(edited_image_path):
         except:
             Exception # :D
 
-    # Shows the edited picture with the added rectangles. This is mainly for demonstration purposes, if used in an productive environment this probably wouldn't be the case
+    # Shows the edited picture with the added rectangles. It needs to convert to RGB color scheme first. cv2 uses BGR, matplotlib uses RGB.
     img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)     
     plt.imshow(img_RGB)
 
