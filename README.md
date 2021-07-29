@@ -19,7 +19,7 @@ img-folder: This folder contains more image Folders. They are named after the ty
 - all: example picture with all of the above visual effects
 - individual: empty folder for you to add your own picture (name has to be picture.png)
 
-src-folder: This folder contains all the code written for this project.
+src-folder: This folder contains all the code written for this project:
 - TextRecognizer: This is the main class. 
 - createImageBoxes: This function creates rectangles around configured words
 - deskew: This function can deskew an image
