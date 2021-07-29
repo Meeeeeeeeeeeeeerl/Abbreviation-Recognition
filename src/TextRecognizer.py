@@ -5,7 +5,7 @@ from createImageBoxes import createImageBoxes
 # Run this class for the OCR magic
 
 # Path of the image that the OCR is working with
-image_option = "normal" # Choose the picture quality using this parameter. Has to match the folder name
+image_option = "all" # Choose the picture quality using this parameter. Has to match the folder name
 image_path = "img/" + image_option + "/picture.png"
 
 # Path of the edited image that the OCR is creating
