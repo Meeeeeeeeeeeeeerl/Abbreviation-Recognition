@@ -3,10 +3,7 @@ import pytesseract
 import matplotlib.pyplot as plt
 import json
 import config as cfg
-def createImageBoxes(edited_image_path):
-
-    # CV2s way of reading images uses a path as input
-    img = cv2.imread(edited_image_path)
+def createImageBoxes(img, image_name):
 
     # Reads the abbreviations.json and loads it
     json_file = open("abbreviations.json", "r")
@@ -43,10 +40,11 @@ def createImageBoxes(edited_image_path):
                         print(word + " is short for: " + json_abb[word])
             except:
                 Exception # :D
+
     # Shows the edited picture with the added rectangles. It needs to convert to RGB color scheme first. cv2 uses BGR, matplotlib uses RGB.
     img_RGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)     
     plt.imshow(img_RGB)
 
     # Saves the picture with added rectangles as a plot 
-    plt.savefig(edited_image_path.replace("-edited.png", "-plotted.png"), dpi=300)
+    plt.savefig("output/" + image_name + "-plot.png", dpi=300)
     plt.show()

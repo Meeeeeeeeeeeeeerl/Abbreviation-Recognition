@@ -1,7 +1,7 @@
 general = {
 
-    # Folder to choose the picture from. Options are "normal", "noise", "skewed", "lowContrast", "all", "individual"
-    "imageFolder": "normal",
+    # Name of the picture located in the img-Folder. DO NOT add the file extension, only enter the name
+    "imageName": "normal",
 
     # Enable Or disable PreProcessing. Options are True, False
     #"enablePreProcessing": False
