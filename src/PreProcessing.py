@@ -1,5 +1,5 @@
 import cv2
-
+from deskew import deskew
 def enhance(image_path, edited_image_path):
 
     # Opens the image and save it to the variable
@@ -11,6 +11,11 @@ def enhance(image_path, edited_image_path):
     # Applies Binarization using an adaptive threshold. It decides if a pixel is black or white using its position and neighbour pixels (Gaussian Adaptive Threshold)
     img_edit = cv2.adaptiveThreshold(img_edit,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,cv2.THRESH_BINARY,11,2)   
     cv2.imwrite("img/picture-binarized.png", img_edit)
+
+    # Deskews the image and saves the deskewed image
+    img_edit = deskew(img_edit)
+    cv2.imwrite("img/picture-deskewed.png", img_edit)
+    
     # Saves the edited image to the given path
     cv2.imwrite(edited_image_path, img_edit)
 
