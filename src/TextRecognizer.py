@@ -5,7 +5,7 @@ from createImageBoxes import createImageBoxes
 # Run this class for the OCR magic
 
 # Path of the image that the OCR is working with
-image_option = "noise" # Choose the picture quality using this parameter. Has to match the folder name
+image_option = "all" # Choose the picture quality using this parameter. Has to match the folder name
 image_path = "img/" + image_option + "/picture.png"
 
 # Path of the edited image that the OCR is creating
@@ -21,6 +21,6 @@ createImageBoxes(edited_image_path)
 image_string = pytesseract.image_to_string(image_edit, lang="deu") 
 
 # Saves the string to a text file
-with open("text/text_result.txt", mode="w", encoding="utf-8") as file:
+with open("text/text-result-" + image_option + ".txt", mode="w", encoding="utf-8") as file:
     file.write(image_string)
     print("done")
