@@ -26,8 +26,8 @@ src-folder: This folder contains all the code written for this project.
 - preprocess: This function pre-processes an image to help increase accuracy of the OCR
 - config: This file contains several configurations to try out
 
-text-folder: This folder contains all the text-results created by the OCR
-README.md: The file you're reading right now ;)
+text-folder: This folder contains all the text-results created by the OCR </br>
+README.md: The file you're reading right now ;) </br>
 abbreviations.json: This file contains all the abbreviations the programm should search for
 
 
