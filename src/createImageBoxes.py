@@ -41,5 +41,5 @@ def createImageBoxes(edited_image_path):
     plt.imshow(img_RGB)
 
     # Saves the picture with added rectangles as a plot 
-    plt.savefig("img/plot.png", dpi=300)
+    plt.savefig(edited_image_path.replace("-edited.png", "-plotted.png"), dpi=300)
     plt.show()
