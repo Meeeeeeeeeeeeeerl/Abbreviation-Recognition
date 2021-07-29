@@ -34,7 +34,7 @@ def createImageBoxes(img, image_name):
                     if word.__contains__(json_word):
                         # The rectangle is drawn onto the picture using the "left", "top", "width" and "height" parameter from PyTesseract
                         # The color is set to red and the thickness of the lines set to 2 to increase visibility.
-                        cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), 1)
+                        cv2.rectangle(img, (int(d[6]), int(d[7])), (int(d[6]) + int(d[8]), int(d[7]) + int(d[9])),(0, 0, 255), cfg.imageBoxes["borderThickness"])
 
                         # More elegant way would be to send these infos to the user directly. Since this is an MVP, it will have to do for now
                         print(word + " is short for: " + json_abb[word])

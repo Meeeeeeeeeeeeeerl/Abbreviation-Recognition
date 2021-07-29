@@ -25,6 +25,6 @@ imageBoxes = {
     "imageBoxesMode": "ABBREVIATIONS",
 
     # Choose the thickness of the border. Options are full numbers from 0-100
-    #"borderThickness": 1
+    "borderThickness": 1
 }
 
