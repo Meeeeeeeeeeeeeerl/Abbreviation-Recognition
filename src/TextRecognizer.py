@@ -5,7 +5,7 @@ from ImageBoxes import createImageBoxes
 # Run this class for the OCR magic
 
 # Path of the image that the OCR is working with
-image_path = "img/example.png"
+image_path = "img/picture.png"
 
 # Path of the edited image that the OCR is creating
 edited_image_path = image_path.replace(".png", "-edited.png")
