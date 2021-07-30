@@ -10,13 +10,13 @@ general = {
 preProcessing = {
 
     # Change intensity of denoising. Options are full numbers between 0-100
-    #"denoising": 3,
+    "denoising": 3,
 
     # Choose method to use for binarization. Options are MEAN, GAUSSIAN. MEAN uses the mean value of the neighbourhood area, GAUSSIAN uses the weighted sum of the neighbourhood area.
-    #"binarizationMethod": "GAUSSIAN",
+    "binarizationMethod": "GAUSSIAN",
 
     # Choose the maximum skew angle. Options are full numbers between 0-100
-    #"maxSkew": 10
+    "maxSkew": 10
 }
 
 imageBoxes = {
