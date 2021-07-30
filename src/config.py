@@ -4,7 +4,7 @@ general = {
     "imageName": "normal",
 
     # Enable Or disable PreProcessing. Options are True, False
-    #"enablePreProcessing": False
+    "enablePreProcessing": True
 }
 
 preProcessing = {
