@@ -11,6 +11,7 @@ This is a Python Wrapper for the Google-OCR Tesseract (https://github.com/tesser
 4. Add Python, the Python scripts folder and Tesseract to your PATH system variable
 5. Download german trained data for Tesseract (deu.traineddata from https://github.com/tesseract-ocr/tessdata) and insert it into the Tesseract tessdata folder
 6. Install opencv-python (https://pypi.org/project/opencv-python/)
+7. Run the TextRecognizer.py
 
 ### Explanation on folder/files
 img-folder: This folder contains more image folders. They are named after the type of picture you find inside:
