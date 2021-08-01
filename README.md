@@ -9,7 +9,8 @@ It is my hope that it can serve as a "Getting Started" to OCR technology and its
 3. Install PyTesseract (https://pypi.org/project/pytesseract/ or https://github.com/UB-Mannheim/tesseract/wiki (recommended)) 
 This is a Python Wrapper for the Google-OCR Tesseract (https://github.com/tesseract-ocr/tesseract).
 4. Add Python, the Python scripts folder and Tesseract to your PATH system variable
-5. Install opencv-python (https://pypi.org/project/opencv-python/)
+5. Download german trained data for Tesseract (deu.traineddata from https://github.com/tesseract-ocr/tessdata) and insert it into the Tesseract tessdata folder
+6. Install opencv-python (https://pypi.org/project/opencv-python/)
 
 ### Explanation on folder/files
 img-folder: This folder contains more image folders. They are named after the type of picture you find inside:
